@@ -33,8 +33,8 @@ class BottomNavigation extends StatelessWidget {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => const ProfileScreen()));
                 },
                 child: Container(
-                  width: 40,
-                  height: 40,
+                  width: 38,
+                  height: 38,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     border: Border.all(width: 2, color: Theme.of(context).colorScheme.tertiary),

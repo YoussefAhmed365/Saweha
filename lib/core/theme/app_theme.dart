@@ -3,8 +3,10 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   // 1. تعريف الألوان الأساسية (التي اتفقنا عليها من لوحة El Paso)
-  static const Color primaryGreen = Color(0xFF9FA14D);
+  static const Color primaryGreen = Color(0xFF878540);
   static const Color pendingOrange = Color(0xFFFFB74D);
+  static const Color dangerRed = Color(0xFFDD2D2D);
+  static const Color dangerLightRed = Color(0xFFF8E9E9);
 
   // ألوان الوضع الفاتح (Light Mode)
   static const Color lightBackground = Color(0xFFF6F7EF);

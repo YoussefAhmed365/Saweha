@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:saweha/l10n/app_localizations.dart';
 import 'package:saweha/core/widgets/bottom_navigation.dart';
 import 'package:saweha/features/home/widgets/activity.dart';
 import 'package:saweha/features/home/widgets/dashboard.dart';
@@ -22,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       extendBody: true,
       appBar: AppBar(
-        title: Text("Saweha", style: Theme.of(context).textTheme.titleMedium),
+        title: Text(AppLocalizations.of(context)!.appTitle, style: Theme.of(context).textTheme.titleMedium),
         actions: [
           Builder(
             builder: (context) {

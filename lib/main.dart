@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:saweha/l10n/app_localizations.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:saweha/features/home/presentation/home_page.dart';
-import 'package:saweha/l10n/app_localizations.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 // import 'package:firebase_core/firebase_core.dart';
+import 'package:saweha/features/home/presentation/home_page.dart';
 import 'core/theme/app_theme.dart';
 
 void main() async {
@@ -34,7 +32,7 @@ class SawehaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: AppLocalizations.of(context)!.appTitle,
+      onGenerateTitle: (context) => AppLocalizations.of(context)!.appTitle,
       debugShowCheckedModeBanner: false,
 
       // -- إعدادات الثيم (تم استدعاؤها من الملف المنفصل) --
@@ -51,10 +49,10 @@ class SawehaApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: const [
-        Locale('ar', ''), // العربية
-        Locale('en', ''), // الإنجليزية
+        Locale('ar', ''),
+        Locale('en', ''),
       ],
-      locale: const Locale('ar', ''),
+      locale: const Locale('en', ''),
 
       home: const HomeScreen(),
     );

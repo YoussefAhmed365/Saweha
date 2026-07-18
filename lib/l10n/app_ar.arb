@@ -1,8 +1,13 @@
 {
   "appTitle": "سوّيها",
+  "dashboard": "لوحة التحكم",
   "personalBalance": "رصيدي الشخصي",
   "familyBalance": "رصيد مشترك للعائلة",
   "addClaim": "إضافة مطالبة",
   "pending": "قيد الانتظار",
-  "settled": "تم السداد"
+  "settled": "تم السداد",
+  "youAreOwed": "لك مستحقات",
+  "balanceDetails": "تفاصيل الرصيد",
+  "youOwe": "عليك مستحقات",
+  "currentBalance": "الرصيد الحالي"
 }

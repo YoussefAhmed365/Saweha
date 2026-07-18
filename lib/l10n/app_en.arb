@@ -1,5 +1,9 @@
 {
   "appTitle": "Saweha",
+  "currentBalance": "Current Balance",
+  "balanceDetails": "Balance Details",
+  "youAreOwed": "You Are Owed",
+  "youOwe": "You Owe",
   "personalBalance": "Personal Balance",
   "familyBalance": "Shared Family Balance",
   "addClaim": "Add Claim",
